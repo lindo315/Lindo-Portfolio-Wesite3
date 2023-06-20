@@ -21,9 +21,32 @@
   height: 200px;
   width: 510px;
   background: #bdc1c5aa;
-  border-radius: 10px;
+  border: none;
   padding: 10px;
 }
+
+.custom-button:hover
+{
+  cursor: pointer;
+}
+
+
+
+/*SCROLL*/
+#scrollUpButton
+{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  background: none;
+  rotate: 90deg;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
 
 
 
@@ -978,6 +1001,7 @@ section#works
 .art3-stuff
 {
   width: 300px;
+  margin-bottom: 15px;
   color: #2C5364;
   font-size: 18px;
   text-align: center;
@@ -986,6 +1010,7 @@ section#works
 .art4-stuff
 {
   width: 100%;
+  margin-bottom: 15px;
   color: #2C5364;
   font-size: 18px;
   padding-left: 20px;
@@ -1574,3 +1599,16 @@ a
 }
 
 
+
+
+
+/*LIST STYLES*/
+.design-list
+{
+  margin-bottom: 20px;
+}
+
+.bold
+{
+  font-weight: bold;
+}
